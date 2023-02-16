@@ -199,3 +199,24 @@ footer a {
   flex-direction: column; 
   gap: 16px; 
 }
+
+@media screen and (max-width: 600px) {  
+    
+     .services-list {        
+        display: block;        
+        width: 100%;        
+    }
+
+    .service-card {        
+        margin-top: 80px;
+     }
+
+     footer {       
+        display: block;       
+        align-items: center;   
+    }
+    footer div {
+        margin-top: 30px;
+
+    }
+}
