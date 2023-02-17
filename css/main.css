@@ -200,11 +200,14 @@ footer a {
   gap: 16px; 
 }
 
-@media screen and (max-width: 600px) {    
+@media screen and (max-width: 600px) {  
+    .header {        
+        padding: 25px 25px;          
+    }  
 
     .hero{
         display: block;        
-    }
+    }   
     
      .services-list {        
         display: block;        
