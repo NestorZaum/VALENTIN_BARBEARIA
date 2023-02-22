@@ -201,14 +201,15 @@ footer a {
 }
 
 @media screen and (max-width: 600px) {  
+
     .header {        
         padding: 25px 25px;          
     }  
 
     .hero{
-        display: block;        
-    }   
-    
+        display: block;      
+    }      
+
      .services-list {        
         display: block;        
         width: 100%;        
